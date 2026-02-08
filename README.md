@@ -42,3 +42,9 @@ streamlit run app.py
 - **Momentum Score**: Earn points for completing tasks, lose points for skipping days.
 - **Skill Tracker**: Visualize your progress over time.
 - **Study Buddy**: Simulated peer activity updates.
+
+## Screenshots
+
+![Dashboard Overview](image.png)
+
+![Task View](image%20copy.png)

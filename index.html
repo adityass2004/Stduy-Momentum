@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Momentum - IELTS Prototype</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <section id="onboarding" class="card">
+            <h1>🎓 Welcome to Study Momentum</h1>
+            <p>Setup your personalized IELTS plan to get started.</p>
+            <form id="setupForm">
+                <div class="form-group">
+                    <label>Target Band Score</label>
+                    <input type="number" id="targetScore" step="0.5" min="0" max="9" value="7.0" required>
+                </div>
+                <div class="form-group">
+                    <label>Exam Date</label>
+                    <input type="date" id="examDate" required>
+                </div>
+                <div class="form-group">
+                    <label>Daily Study (mins)</label>
+                    <input type="number" id="studyTime" min="15" step="15" value="60" required>
+                </div>
+                <div class="form-group">
+                    <label>Weakest Skill</label>
+                    <select id="weakSkill">
+                        <option value="Reading">Reading</option>
+                        <option value="Writing">Writing</option>
+                        <option value="Listening">Listening</option>
+                        <option value="Speaking">Speaking</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Start My Journey 🚀</button>
+            </form>
+        </section>
+
+        <div id="dashboard" class="hidden">
+            <header class="dashboard-header">
+                <div class="welcome-text">
+                    <h2>Hi, Scholar! 👋</h2>
+                    <p id="daysLeftDisplay">0 days to exam</p>
+                </div>
+                <button id="resetBtn" class="btn-text">Reset Profile</button>
+            </header>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Momentum</h3>
+                    <div class="stat-value" id="momentumDisplay">0</div>
+                    <div class="progress-container">
+                        <div class="progress-bar" id="momentumBar" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <h3>Streak</h3>
+                    <div class="stat-value">🔥 <span id="streakDisplay">0</span></div>
+                </div>
+                <div class="stat-card">
+                    <h3>Tasks Done</h3>
+                    <div class="stat-value">✅ <span id="completedDisplay">0</span></div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <section class="card task-section">
+                    <div class="card-header">
+                        <h3>📅 Today's Tasks</h3>
+                        <button id="generateTasksBtn" class="btn-secondary">Refresh Tasks</button>
+                    </div>
+                    <div id="taskList" class="task-list">
+                    </div>
+                    <div id="completionMessage" class="hidden success-box">
+                        🎉 All tasks completed! +10 Bonus & Streak Up!
+                    </div>
+                </section>
+
+                <section class="card chart-section">
+                    <h3>📈 Skill Mastery</h3>
+                    <div class="chart-container">
+                        <canvas id="skillChart"></canvas>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
