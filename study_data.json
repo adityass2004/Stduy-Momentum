@@ -1,0 +1,177 @@
+{
+    "profile": {
+        "target_score": 9.0,
+        "exam_date": "2026-02-08",
+        "daily_minutes": 90,
+        "weakest_skill": "Listening",
+        "momentum_score": 100,
+        "last_check_in": "2026-02-08",
+        "current_streak": 11,
+        "max_streak": 11,
+        "skips_left": 3,
+        "last_skip_grant": "2026-02-08",
+        "badges": [
+            "momentum_50",
+            "perfect_day",
+            "streak_3",
+            "momentum_100",
+            "streak_7"
+        ]
+    },
+    "current_tasks": {
+        "date": "2026-02-08",
+        "items": [
+            {
+                "skill": "Listening",
+                "desc": "Transcribe 2 mins of audio",
+                "time": 20,
+                "completed": false
+            },
+            {
+                "skill": "Listening",
+                "desc": "Listen to a TED Talk",
+                "time": 15,
+                "completed": true
+            },
+            {
+                "skill": "Speaking",
+                "desc": "Shadowing exercise",
+                "time": 20,
+                "completed": false
+            }
+        ]
+    },
+    "history": [
+        {
+            "date": "2026-01-29",
+            "completed_count": 2,
+            "total_count": 3,
+            "momentum_gained": 10,
+            "skills_improved": {
+                "Listening": 1,
+                "Reading": 1
+            },
+            "new_streak": 1,
+            "new_badges": []
+        },
+        {
+            "date": "2026-01-30",
+            "completed_count": 2,
+            "total_count": 3,
+            "momentum_gained": 10,
+            "skills_improved": {
+                "Writing": 1,
+                "Speaking": 1
+            },
+            "new_streak": 2,
+            "new_badges": []
+        },
+        {
+            "date": "2026-01-31",
+            "completed_count": 3,
+            "total_count": 3,
+            "momentum_gained": 25,
+            "skills_improved": {
+                "Writing": 2,
+                "Speaking": 1
+            },
+            "new_streak": 3,
+            "new_badges": []
+        },
+        {
+            "date": "2026-02-01",
+            "completed_count": 2,
+            "total_count": 3,
+            "momentum_gained": 10,
+            "skills_improved": {
+                "Listening": 1,
+                "Reading": 1
+            },
+            "new_streak": 4,
+            "new_badges": []
+        },
+        {
+            "date": "2026-02-02",
+            "completed_count": 1,
+            "total_count": 3,
+            "momentum_gained": 5,
+            "skills_improved": {
+                "Speaking": 1
+            },
+            "new_streak": 5,
+            "new_badges": []
+        },
+        {
+            "date": "2026-02-03",
+            "completed_count": 3,
+            "total_count": 3,
+            "momentum_gained": 25,
+            "skills_improved": {
+                "Listening": 1,
+                "Speaking": 1,
+                "Writing": 1
+            },
+            "new_streak": 6,
+            "new_badges": []
+        },
+        {
+            "date": "2026-02-04",
+            "completed_count": 3,
+            "total_count": 3,
+            "momentum_gained": 25,
+            "skills_improved": {
+                "Speaking": 1,
+                "Writing": 1,
+                "Reading": 1
+            },
+            "new_streak": 7,
+            "new_badges": []
+        },
+        {
+            "date": "2026-02-05",
+            "completed_count": 2,
+            "total_count": 3,
+            "momentum_gained": 10,
+            "skills_improved": {
+                "Writing": 1,
+                "Speaking": 1
+            },
+            "new_streak": 8,
+            "new_badges": []
+        },
+        {
+            "date": "2026-02-06",
+            "completed_count": 1,
+            "total_count": 3,
+            "momentum_gained": 5,
+            "skills_improved": {
+                "Reading": 1
+            },
+            "new_streak": 9,
+            "new_badges": []
+        },
+        {
+            "date": "2026-02-07",
+            "completed_count": 2,
+            "total_count": 3,
+            "momentum_gained": 10,
+            "skills_improved": {
+                "Speaking": 1,
+                "Reading": 1
+            },
+            "new_streak": 10,
+            "new_badges": []
+        },
+        {
+            "date": "2026-02-08",
+            "completed_count": 1,
+            "total_count": 3,
+            "momentum_gained": 5,
+            "skills_improved": {
+                "Listening": 1
+            },
+            "new_streak": 11,
+            "new_badges": []
+        }
+    ]
+}
