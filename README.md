@@ -1,5 +1,7 @@
 # Study Momentum - IELTS Prototype
 
+[🚀 **Live Demo**](https://adityass2004.github.io/Stduy-Momentum/)
+
 ## 🚨 Environment Setup Required
 
 **Note:** It appears that Python is not correctly installed or configured on this system (missing base interpreter for existing venvs, and broken execution aliases). You will need to install Python to run this prototype.
